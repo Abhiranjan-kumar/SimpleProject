@@ -34,31 +34,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 22px;
 }
 
-body{
-  background-color: aqua;
+.container{
+  
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 10%;
-  background-color: rgb(16, 16, 148);
+  background: blueviolet;
 }
 
-.logo{
-  font-size: 35px;
-}
-
-.navbar{
-  display: flex;
-}
-
-.navbar a{
+.logo a{
   text-decoration: none;
+  font-size: 40px;
+  color: red;
+}
+
+.languague{
+  margin-right: 20px;
+  color: rgb(197, 197, 197);
+  border: .5px solid white;
+  outline: none;
+  height: 35px;
+  width: 120px;
+  background: transparent;
+  border-radius: 5px;
+  border-color: rgb(162, 162, 162);
+}
+
+.sign-in{
+  font-size: 20px;
+  height: 35px;
+  width: 90px;
+  background: red;
   color: white;
-  margin-left: 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
